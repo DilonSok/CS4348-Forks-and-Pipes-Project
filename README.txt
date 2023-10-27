@@ -1,3 +1,17 @@
+This project is about using forks and pipes in C to simulate 
+a small computer system that contains a CPU and Memory.
+The CPU and Memory coordinate the execution of instructions and reading data 
+through usage of pipes as they are separate processes that were forked. 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How To Run the Project:
+
+	1. Once in directory with files, compile with command: 
+		g++ proj1.c
+	2. Execute with command
+		./a.out <file_name> <timer_input>
+		example: ./a.out sample5.txt 30
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Files:
 
@@ -22,12 +36,3 @@ Files:
 		features to handle storing chars/value data to
 		print later.
 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-How To Run the Project:
-
-	1. Once in directory with files, compile with command: 
-		g++ proj1.c
-	2. Execute with command
-		./a.out <file_name> <timer_input>
-		example: ./a.out sample5.txt 30
